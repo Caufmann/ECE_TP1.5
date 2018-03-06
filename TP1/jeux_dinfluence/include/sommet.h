@@ -2,7 +2,8 @@
 #define SOMMET_H
 
 #include <string>
-#include "arete.h"
+
+class Arete;
 
 class Sommet
 {

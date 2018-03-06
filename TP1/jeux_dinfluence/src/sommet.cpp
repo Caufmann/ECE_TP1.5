@@ -5,6 +5,7 @@ Sommet::Sommet()
 }
 
 Sommet::Sommet(std::string nomSommet)
+        : m_nomSommet(nomSommet)
 {
 
 }
