@@ -9,3 +9,8 @@ Graphe::~Graphe()
 {
     //dtor
 }
+
+void Graphe::afficher()
+{
+
+}
