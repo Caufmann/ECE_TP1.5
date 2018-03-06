@@ -1,6 +1,11 @@
 #ifndef GRAPHE_H
 #define GRAPHE_H
 
+class arete;
+
+#include <vector>
+#include <fstream>
+#include <iostream>
 
 class Graphe
 {
@@ -16,6 +21,9 @@ class Graphe
 
         //Destructeur
         ~Graphe();
+
+        //Methodes
+        void afficher();
 
 };
 
