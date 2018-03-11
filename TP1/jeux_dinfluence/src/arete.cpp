@@ -6,7 +6,7 @@ Arete::Arete()
 }
 
 Arete::Arete(Sommet* SommetDepart, Sommet* SommetArrive)
-        : m_SommetDepart(SommetDepart), m_SommetArrive(SommetArrive)
+    : m_SommetDepart(SommetDepart), m_SommetArrive(SommetArrive)
 {
 
 }

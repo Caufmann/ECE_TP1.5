@@ -1,4 +1,11 @@
-Conseil Administration NGA
-President
-Vice-President
-Tresorier
+5
+John
+Juan
+Jean
+Jan
+Jon
+01010
+00001
+01000
+00100
+00100
