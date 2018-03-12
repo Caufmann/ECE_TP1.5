@@ -9,6 +9,7 @@ class Sommet
 {
     private:
         std::string m_nomSommet;
+        int m_numeroSommet;
 
     public:
         //Constructeur par defaut
@@ -18,13 +19,15 @@ class Sommet
         Sommet(std::string nomSommet);
 
         //Destructeur
-        ~Sommet();
-
-        //Setters
-        void setNom(std::string nomSom) { m_nomSommet = nomSom; }
+        virtual ~Sommet();
 
         //Getters
         std::string getNom() { return m_nomSommet; }
+        int getNum() { return m_numeroSommet; }
+
+        //Setters
+        void setNom(std::string nomSom) { m_nomSommet = nomSom; }
+        void setNumero(int numSom) { m_numeroSommet = numSom; }
 
         //Methodes
 
